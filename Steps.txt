@@ -1,0 +1,44 @@
+# Monocular 
+
+## TUM
+./Examples/Monocular/mono_tum \
+Vocabulary/ORBvoc.txt \
+Examples/Monocular/TUM1.yaml \
+/data/rgbd_dataset_freiburg1_xyz
+
+## EuRoC
+./Examples/Monocular/mono_euroc \
+Vocabulary/ORBvoc.txt \
+Examples/Monocular/EuRoC.yaml \
+/data/mav0/cam0/data \
+Examples/Monocular/EuRoC_TimeStamps/V103.txt
+
+# Stereo
+
+## EuRoC
+./Examples/Stereo/stereo_euroc \
+Vocabulary/ORBvoc.txt \
+Examples/Stereo/EuRoC.yaml \
+/data/mav0/cam0/data \
+/data/mav0/cam1/data \
+Examples/Stereo/EuRoC_TimeStamps/V103.txt
+
+# RGBD
+
+## TUM
+python associate.py \
+/data/rgbd_dataset_freiburg1_xyz/rgb.txt \
+/data/rgbd_dataset_freiburg1_xyz/depth.txt > associations.txt
+
+./Examples/RGB-D/rgbd_tum \
+Vocabulary/ORBvoc.txt \
+Examples/RGB-D/TUM1.yaml \
+/data/rgbd_dataset_freiburg1_xyz \
+associations.txt
+
+# ROS
+
+roscore
+rosrun ORB_SLAM2 Stereo Vocabulary/ORBvoc.txt /ORB_SLAM2/Examples/Stereo/EuRoC.yaml true
+rosbag play --pause /data/V1_01_easy.bag /cam0/image_raw:=/camera/left/image_raw /cam1/image_raw:=/camera/right/image_raw
+    
