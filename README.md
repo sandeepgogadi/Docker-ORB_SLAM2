@@ -13,8 +13,11 @@ Refer steps.txt for commands.
 
 ## Demos
 [!alt text](https://github.com/sandeepgogadi/Docker-ORB_SLAM2/blob/master/gifs/monocular_Euroc.gif "monocular_Euroc")
+
 [!alt text](https://github.com/sandeepgogadi/Docker-ORB_SLAM2/blob/master/gifs/monocular_TUM.gif "monocular_TUM")
+
 [!alt text](https://github.com/sandeepgogadi/Docker-ORB_SLAM2/blob/master/gifs/rgbd_TUM.gif "rgbd_TUM")
+
 [!alt text](https://github.com/sandeepgogadi/Docker-ORB_SLAM2/blob/master/gifs/stereo_Euroc.gif "stereo_Euroc")
 
 ## Datasets
