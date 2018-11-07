@@ -31,6 +31,7 @@ Refer steps.txt for commands.
 
 ## Datasets
 1. [TUM RGBD](https://vision.in.tum.de/data/datasets/rgbd-dataset)
+
 @InProceedings{ sturm12iros,
 	author = {J. Sturm and N. Engelhard and F. Endres and W. Burgard and D. Cremers},
 	title = "A Benchmark for the Evaluation of RGB-D SLAM Systems",
@@ -39,4 +40,5 @@ Refer steps.txt for commands.
 	month= "Oct.",
 }
 2. [Euroc MAV](https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets)
+
 M. Burri, J. Nikolic, P. Gohl, T. Schneider, J. Rehder, S. Omari, M. Achtelik and R. Siegwart, The EuRoC micro aerial vehicle datasets, International Journal of Robotic Research, DOI: 10.1177/0278364915620033, early 2016.
