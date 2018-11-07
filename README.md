@@ -18,6 +18,8 @@ Refer steps.txt for commands.
 ### [RGBD TUM](https://github.com/sandeepgogadi/Docker-ORB_SLAM2/blob/master/gifs/rgbd_TUM.gif)
 ### [Stereo Euroc](https://github.com/sandeepgogadi/Docker-ORB_SLAM2/blob/master/gifs/stereo_Euroc.gif)
 
+![alt text](https://github.com/sandeepgogadi/Docker-ORB_SLAM2/blob/master/gifs/monocular_Euroc.gif "Monocular Euroc")
+
 ## Datasets
 1. [TUM RGBD](https://vision.in.tum.de/data/datasets/rgbd-dataset)
 @InProceedings{ sturm12iros,
