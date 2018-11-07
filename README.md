@@ -13,6 +13,8 @@ Refer steps.txt for commands.
 
 ## Demos
 
+### Monocular Euroc
+
 [!alt text](https://github.com/sandeepgogadi/Docker-ORB_SLAM2/blob/master/gifs/monocular_Euroc.gif "monocular_Euroc")
 
 
